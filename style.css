@@ -1,0 +1,42 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background-color: black;
+  background-image: url(https://www.meme-arsenal.com/memes/2dadea317a1720d13c5b270bb1edefec.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 500px;
+}
+.background_img {
+  margin-bottom: 500px;
+  height: 100%;
+  width: 100%;
+}
+button {
+  background-color: transparent;
+  border-color: transparent;
+  height: 100px;
+  width: 200px;
+  text-decoration: none;
+}
+a {
+  font-size: 70px;
+  color: transparent;
+}
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+@media screen and (max-width: 600px) {
+  button {
+    background-color: white;
+    border-color: black;
+    height: 100px;
+    width: 150px;
+    margin: 10px;
+  }
+  
+}
